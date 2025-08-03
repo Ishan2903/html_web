@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="prometheus" >
+        <meta name="viewport" content="width=device-width", initial-scale="0.1">
+        <title>css</title>
+        <style> 
+        .blue{
+            color: blue;
+        }
+        #redtext{
+            color: red;
+        }
+        div > p{
+            color: bisque;
+            background-color: blue;
+        }
+        a:visited{
+            color: aquamarine;
+        }
+
+        *{
+            padding: 0;
+            border: 0;
+            margin: 0;
+        }
+        .blue{
+            margin: 2px;
+            border: 2px solid black;
+            padding: 2px;
+        }
+        </style>
+
+    </head>
+    <body>
+        <p id="redtext">This appears in red</p>
+        <p class="blue">This appears in blue</p>
+        <section id="firstchild">
+            <p>First child</p>
+            <p>Second child</p>
+        </section>
+        <div>
+            <p>This text and backgroud colour is different because it is a child to div</p>
+        </div>
+        <a href="www.google.com">Click here to go to google</a>
+    </body>
+</html>

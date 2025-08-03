@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="prometheus">
+    <meta name="description" content="experimental">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="download.png">
+    </head>
+    <body>
+        <h1><b>Contact Us</b></h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html#top">About LTS</a></li>
+            <li><a href="about.html#menu">Our Menu</a></li>
+            <li><a href="hour.html">Store hours</a></li>
+        </ul>
+        <img src="img/tacos_tray_400x267.png" alt="tacostray">
+        <p>Little Taco Shop tacos</p>
+        <h2><b>Our Contact Form</b></h2>
+        <fieldset>
+            <legend>Send us a meassage</legend>
+            <form action="https://httpbin.org/get" method="ger">
+                <p>
+                <label for="name">Enter your name</label>
+                <input type="text" name="name" id="name" placeholder="name">
+                </p>
+                <p>
+                    <label for="mail">Email id</label>
+                    <input type="email" name="mail" id="mail" placeholder="enter email">
+                </p>
+                <p>
+                    <label for="message">Leave your message here</label>
+                    <br>
+                <textarea name="reason" id="message" cols="30" rows="5" placeholder="leave your message"></textarea>
+                </p>
+            </form>
+        
+    </fieldset>
+    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">SUBMIT</button>
+    <button type="reset" formaction="https://httpbin.org/post" formmethod="post">Reset</button>
+        
+    </body>
+</html>

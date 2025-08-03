@@ -1,0 +1,5 @@
+let res=1;
+for(let i=6;i>=1;i--){
+    res*=i;
+}
+console.log(res);
